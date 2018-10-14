@@ -57,6 +57,9 @@ group :development do
 
   # Use Guard & Guard-rspec
   gem 'guard-rspec', require: false
+
+  # Use Rubocop
+  gem 'rubocop', require: false
 end
 
 
