@@ -28,3 +28,6 @@
 
 # Ignore direnv config
 /.envrc
+
+# Ingore spec examples.txt file
+/spec/examples.txt
