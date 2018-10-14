@@ -88,6 +88,9 @@ GEM
       shellany (~> 0.0)
       thor (>= 0.18.1)
     guard-compat (1.2.1)
+    guard-reek (1.2.0)
+      guard-compat (~> 1.1)
+      reek
     guard-rspec (4.7.3)
       guard (~> 2.1)
       guard-compat (~> 1.1)
@@ -280,6 +283,7 @@ DEPENDENCIES
   bootsnap (>= 1.1.0)
   byebug
   coffee-rails (~> 4.2)
+  guard-reek
   guard-rspec
   guard-rubocop
   haml-rails
