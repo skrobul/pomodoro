@@ -60,6 +60,9 @@ group :development do
 
   # Use Rubocop
   gem 'rubocop', require: false
+
+  # Use Guard-rubocop
+  gem 'guard-rubocop', require: false
 end
 
 
