@@ -65,6 +65,9 @@ group :development do
 
   # Use Guard-rubocop
   gem 'guard-rubocop', require: false
+
+  # Use Reek
+  gem 'reek'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
