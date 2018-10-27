@@ -77,6 +77,6 @@ guard :rubocop do
 end
 
 guard 'reek' do
-  watch(%r{.+\.rb$})
+  watch(/.+\.rb$/)
   watch('.reek')
 end
