@@ -13,6 +13,7 @@ Metrics/LineLength:
   Max: 90
   Exclude:
     - 'Gemfile'
+    - 'Guardfile'
     - 'spec/spec_helper.rb'
     - 'db/**/*'
     - 'config/**/*'

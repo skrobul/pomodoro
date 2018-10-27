@@ -80,6 +80,12 @@ group :development do
 
   # Use Guard-reek
   gem 'guard-reek', require: false
+
+  # Use Guard-bundler
+  gem 'guard-bundler', require: false
+
+  # Use Guard-rails
+  gem 'guard-rails', require: false
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

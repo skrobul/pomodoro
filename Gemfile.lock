@@ -100,7 +100,14 @@ GEM
       pry (>= 0.9.12)
       shellany (~> 0.0)
       thor (>= 0.18.1)
+    guard-bundler (2.1.0)
+      bundler (~> 1.0)
+      guard (~> 2.2)
+      guard-compat (~> 1.1)
     guard-compat (1.2.1)
+    guard-rails (0.8.1)
+      guard (~> 2.11)
+      guard-compat (~> 1.0)
     guard-reek (1.2.0)
       guard-compat (~> 1.1)
       reek
@@ -309,6 +316,8 @@ DEPENDENCIES
   byebug
   coffee-rails (~> 4.2)
   devise
+  guard-bundler
+  guard-rails
   guard-reek
   guard-rspec
   guard-rubocop
