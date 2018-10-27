@@ -86,6 +86,9 @@ group :development do
 
   # Use Guard-rails
   gem 'guard-rails', require: false
+
+  # Use Guard-spring
+  gem 'guard-spring', require: false
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
