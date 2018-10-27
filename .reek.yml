@@ -7,7 +7,9 @@ detectors:
     - ApplicationCable::Channel
     - ApplicationCable::Connection
     - ApplicationController
+    - DashboardController
     - ApplicationHelper
+    - DashboardHelper
     - ApplicationJob
     - ApplicationMailer
     - ApplicationRecord
