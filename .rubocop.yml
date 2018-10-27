@@ -1,1 +1,18 @@
-inherit_from: .rubocop_todo.yml
+AllCops:
+  Exclude:
+    - 'bin/*'
+
+Metrics/BlockLength:
+  Exclude:
+    - 'Guardfile'
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 90
+  Exclude:
+    - 'Gemfile'
+    - 'spec/spec_helper.rb'
+    - 'db/**/*'
+    - 'config/**/*'

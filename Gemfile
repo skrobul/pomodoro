@@ -69,7 +69,7 @@ group :development do
   # Use Guard & Guard-rspec
   gem 'guard-rspec', require: false
 
-  #  Use Rubocop
+  # Use Rubocop
   gem 'rubocop', require: false
 
   # Use Guard-rubocop
