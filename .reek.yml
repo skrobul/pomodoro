@@ -13,3 +13,15 @@ detectors:
     - ApplicationJob
     - ApplicationMailer
     - ApplicationRecord
+    - User
+    - DeviseCreateUsers
+  FeatureEnvy:
+    exclude:
+    - DeviseCreateUsers#change
+  TooManyStatements:
+    exclude:
+    - initialize
+    - DeviseCreateUsers#change
+  UncommunicativeVariableName:
+    exclude:
+    - DeviseCreateUsers#change
