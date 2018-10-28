@@ -10,17 +10,25 @@ detectors:
     - DashboardController
     - ApplicationHelper
     - DashboardHelper
+    - DeviseHelper
     - ApplicationJob
     - ApplicationMailer
     - ApplicationRecord
     - User
     - DeviseCreateUsers
-  FeatureEnvy:
+  UtilityFunction:
     exclude:
-    - DeviseCreateUsers#change
+    - DevisePreview#password_reset
+  DuplicateMethodCall:
+    exclude:
+    - DeviseHelper#devise_error_messages!
   TooManyStatements:
     exclude:
     - initialize
+    - DeviseHelper#devise_error_messages!
+    - DeviseCreateUsers#change
+  FeatureEnvy:
+    exclude:
     - DeviseCreateUsers#change
   UncommunicativeVariableName:
     exclude:
